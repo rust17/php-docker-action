@@ -1,0 +1,2 @@
+ARG VERSION
+FROM php:${VERSION}-cli
