@@ -4,7 +4,7 @@ FROM php:${VERSION}-cli
 RUN rm /etc/apt/preferences.d/no-debian-php
 RUN apt-get update && apt-get install -y \
         libzip-dev libzip4 zlib1g-dev libcurl3-dev libxml2-dev libpng-dev libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libicu-dev \
-        cron unzip php-xml php-bcmath php-curl php-xml php-gd php-zip
+        cron unzip php-bcmath php-curl php-xml php-gd php-zip
 
 ARG VERSION
 RUN if [ ${VERSION} = "7.3" ]; then \
