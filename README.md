@@ -1,7 +1,7 @@
 # php-docker-action
 Use docker image to setup php environment mainly for laravel
 
-[![Build](https://github.com/rust17/php-docker-action/workflows/.github/workflows/action.yml/badge.svg)](https://github.com/rust17/php-docker-action/actions)
+![CI to Docker Hub](https://github.com/rust17/php-docker-action/workflows/CI%20to%20Docker%20Hub/badge.svg)
 [![Pull](https://img.shields.io/docker/pulls/rust17/php-docker-action.svg)](https://img.shields.io/docker/pulls/rust17/php-docker-action.svg)
 [![LICENSE](https://img.shields.io/github/license/rust17/php-docker-action)](https://github.com/rust17/php-docker-action/blob/master/LICENSE)
 
